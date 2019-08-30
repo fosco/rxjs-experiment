@@ -4,5 +4,15 @@
     RxJS experiment
   </h1>
 
+  <nav>
+    <a routerLink="/cronometer" routerLinkActive="active">Cronometer</a>
+  </nav>
+  
+  <router-outlet></router-outlet>
+
+  <div class="timer">{{ seconds }}</div>
+
+  <button class="testbutton" (click)="handleStopClick()">Stop</button>
+
  </div>
 <router-outlet></router-outlet>
