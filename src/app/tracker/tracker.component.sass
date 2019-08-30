@@ -1,0 +1,22 @@
+$rectangle-color: #FF5722
+
+.container
+    display: flex
+    flex-direction: column
+    align-items: center
+
+#rectangle
+    width: 600px
+    height: 300px
+    background-color: $rectangle-color
+    border-radius: 20px
+    cursor: pointer
+    opacity: .7
+    transition: opacity 0.3s
+    &:hover 
+        opacity: 1
+    
+.pos-data
+    display: flex
+    flex-direction: column
+    padding: 20px
